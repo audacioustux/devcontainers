@@ -1,7 +1,7 @@
 # DevContainers Features
+This is a collection of features that I have found useful in my devcontainers.
 
-## Caution
-No Commitment to maintain or keep features up to date. Use at your own risk.
-
-## Links
-- [Featurs Template](https://github.com/devcontainers/feature-template)
+## Notes
+* **Only Compatible IDE:** VSCode / VSCode Insiders / Codespaces
+* **Only Compatible Image:** `mcr.microsoft.com/devcontainers/base:ubuntu`
+    
