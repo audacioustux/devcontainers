@@ -14,6 +14,7 @@ jobs:
       matrix:
         features:
           - common-utils-extras
+          - pulumi
         baseImage:
           - mcr.microsoft.com/devcontainers/base:ubuntu
     steps:
@@ -32,6 +33,7 @@ jobs:
       matrix:
         features:
           - common-utils-extras
+          - pulumi
     steps:
       - uses: actions/checkout@v3
 
