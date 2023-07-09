@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -eax
+set -e
 
 source dev-container-features-test-lib
 
@@ -20,11 +20,8 @@ bins=(
     gums
 )
 
-# check if all bins are installed and executable
 for bin in "${bins[@]}"; do
-    if ! command -v "$bin" &> /dev/null; then
-        reportError "$bin is not installed"
-    fi
+    check "$bin" command -v "$bin"
 done
 
 reportResults
