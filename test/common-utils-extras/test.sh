@@ -11,7 +11,7 @@ bins=(
     hyperfine
     fd
     zoxide
-    neovim
+    nvim
     httpie
     fzf
     socat
