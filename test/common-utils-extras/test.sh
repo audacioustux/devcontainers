@@ -17,11 +17,14 @@ bins=(
     fzf
     socat
     parallel
-    gumsdsd
+    gums
 )
 
-for pkg in "${pkgs[@]}"; do
-    check "$pkg" "which $pkg"
+# check if all bins are installed and executable
+for bin in "${bins[@]}"; do
+    if ! command -v "$bin" &> /dev/null; then
+        reportError "$bin is not installed"
+    fi
 done
 
 reportResults
