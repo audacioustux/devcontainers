@@ -8,7 +8,6 @@ bins=(
     rg
     bat
     exa
-    delta
     hyperfine
     fd-find
     zoxide

@@ -12,7 +12,6 @@ apt-get install -yqq --no-install-recommends \
     ripgrep \
     bat \
     exa \
-    delta \
     hyperfine \
     fd-find \
     zoxide \
