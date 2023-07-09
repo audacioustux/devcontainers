@@ -17,7 +17,7 @@ bins=(
     fzf
     socat
     parallel
-    gum
+    gumsdsd
 )
 
 for pkg in "${pkgs[@]}"; do
