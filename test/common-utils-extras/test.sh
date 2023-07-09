@@ -12,7 +12,7 @@ bins=(
     fd
     zoxide
     nvim
-    httpie
+    http
     fzf
     socat
     parallel
