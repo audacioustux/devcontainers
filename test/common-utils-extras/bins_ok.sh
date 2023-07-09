@@ -4,8 +4,8 @@ set -eax
 
 source dev-container-features-test-lib
 
-pkgs=(
-    ripgrep
+bins=(
+    rg
     bat
     exa
     delta
@@ -13,7 +13,6 @@ pkgs=(
     fd-find
     zoxide
     neovim
-    python3-neovim
     httpie
     fzf
     socat
