@@ -9,7 +9,7 @@ bins=(
     bat
     exa
     hyperfine
-    fd-find
+    fd
     zoxide
     neovim
     httpie

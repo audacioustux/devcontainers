@@ -13,7 +13,7 @@ apt-get install -yqq --no-install-recommends \
     bat \
     exa \
     hyperfine \
-    fd \
+    fd-find \
     zoxide \
     neovim \
     python3-neovim \
