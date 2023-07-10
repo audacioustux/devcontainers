@@ -1,1 +1,11 @@
-{}
+{
+    "available_for_nonroot_user": {
+        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+        "remoteUser": "vscode",
+        "features": {
+            "common-utils": {
+                "username": "vscode"
+            }
+        }
+    }
+}
