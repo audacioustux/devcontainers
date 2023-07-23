@@ -1,8 +1,10 @@
 name: "CI - Test Features"
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["Validate devcontainer-feature.json files"]
+    branches: ["main"]
+    types:
+      - completed
   workflow_dispatch:
   pull_request:
 
