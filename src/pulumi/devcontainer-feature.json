@@ -1,6 +1,6 @@
 {
     "id": "pulumi",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Pulumi",
     "installsAfter": ["ghcr.io/audacioustux/devcontainers/common-utils-extras"]
 }
