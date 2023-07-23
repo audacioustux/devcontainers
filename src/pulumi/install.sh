@@ -21,5 +21,5 @@ curl -sSL -o /tmp/crd2pulumi.tar.gz.asc https://github.com/pulumi/crd2pulumi/rel
 cat /tmp/crd2pulumi.tar.gz.asc | grep "$(sha256sum /tmp/crd2pulumi.tar.gz | cut -d ' ' -f 1)"
 
 mkdir -p /tmp/crd2pulumi
-tar -xzf /tmp/crd2pulumi.tar.gz -C /tmp/crd2pulumi
-sudo install -o root -g root -m 0755 /tmp/crd2pulumi /usr/local/bin/crd2pulumi
+tar -xzf /tmp/crd2pulumi.tar.gz -C /tmp/crd2pulum
+sudo install -o root -g root -m 0755 /tmp/crd2pulumi/crd2pulumi /usr/local/bin/crd2pulumi

@@ -1,7 +1,9 @@
 name: "Validate devcontainer-feature.json files"
 on:
+  # only run if CI - Test Features workflow is successful
   workflow_run:
     workflows: ["CI - Test Features"]
+    if: github.event.workflow_run.conclusion == 'success'
     branches: ["main"]
     types:
       - completed
