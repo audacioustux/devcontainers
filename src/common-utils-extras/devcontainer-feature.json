@@ -1,7 +1,7 @@
 {
     "name": "Common Utilities Extras",
     "id": "common-utils-extras",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "More Common utilities for development containers",
     "installsAfter": ["ghcr.io/devcontainers/features/common-utils"],
     "containerEnv": {
