@@ -17,6 +17,7 @@ bins=(
     socat
     parallel
     gum
+    yq
 )
 
 for bin in "${bins[@]}"; do

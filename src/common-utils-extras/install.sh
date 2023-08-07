@@ -23,9 +23,13 @@ apt-get install -yqq --no-install-recommends \
     parallel \
     gum
 
-# create symlinks for bat and fd, as they are called batcat and fdfind in Ubuntu
 sudo -iu $_REMOTE_USER <<EOF
+    # create symlinks for bat and fd, as they are called batcat and fdfind in Ubuntu
     mkdir -p ~/.local/bin
     ln -s $(which batcat) ~/.local/bin/bat
     ln -s $(which fdfind) ~/.local/bin/fd
+
+    # install yq
+    curl -sS https://webinstall.dev/yq | bash
 EOF
+
