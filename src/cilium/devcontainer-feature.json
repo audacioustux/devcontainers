@@ -1,0 +1,7 @@
+{
+    "name": "Cilium",
+    "id": "cilium",
+    "version": "1.0.0",
+    "description": "Cilium CLI",
+    "installsAfter": ["ghcr.io/audacioustux/devcontainers/common-utils-extras"]
+}

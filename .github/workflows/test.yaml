@@ -18,6 +18,7 @@ jobs:
           - common-utils-extras
           - pulumi
           - k9s
+          - cilium
         baseImage:
           - mcr.microsoft.com/devcontainers/base:ubuntu
     steps:
@@ -38,6 +39,7 @@ jobs:
           - common-utils-extras
           - pulumi
           - k9s
+          - cilium
     steps:
       - uses: actions/checkout@v3
 
