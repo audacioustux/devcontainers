@@ -19,6 +19,7 @@ jobs:
           - pulumi
           - k9s
           - cilium
+          - taskfile
         baseImage:
           - mcr.microsoft.com/devcontainers/base:ubuntu
     steps:
@@ -40,6 +41,7 @@ jobs:
           - pulumi
           - k9s
           - cilium
+          - taskfile
     steps:
       - uses: actions/checkout@v3
 
