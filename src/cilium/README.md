@@ -1,13 +1,13 @@
 
-# Common Utilities Extras (common-utils-extras)
+# Cilium (cilium)
 
-More Common utilities for development containers
+Cilium CLI
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/audacioustux/devcontainers/common-utils-extras:1": {}
+    "ghcr.io/audacioustux/devcontainers/cilium:1": {}
 }
 ```
 
@@ -17,4 +17,4 @@ More Common utilities for development containers
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/audacioustux/devcontainers/blob/main/src/common-utils-extras/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/audacioustux/devcontainers/blob/main/src/cilium/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
