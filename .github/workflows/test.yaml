@@ -16,11 +16,6 @@ jobs:
       matrix:
         features:
           - common-utils-extras
-          - pulumi
-          - k9s
-          - cilium
-          - taskfile
-          - graalvm
         baseImage:
           - mcr.microsoft.com/devcontainers/base:ubuntu
     steps:
