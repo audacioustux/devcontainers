@@ -21,8 +21,6 @@ jobs:
           - cilium
           - taskfile
           - graalvm
-          - scala-toolchain
-          - bazel
         baseImage:
           - mcr.microsoft.com/devcontainers/base:ubuntu
     steps:
@@ -46,7 +44,7 @@ jobs:
           - cilium
           - taskfile
           - graalvm
-          - scala-toolchain
+          # - scala-toolchain
           - bazel
     steps:
       - uses: actions/checkout@v3
