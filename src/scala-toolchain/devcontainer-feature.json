@@ -1,0 +1,20 @@
+{
+    "id": "scala-toolchain",
+    "version": "1.0.0",
+    "name": "Scala Toolchain",
+    "options": {
+      "version": {
+        "type": "string",
+        "default": "latest",
+        "description": "Select sbt version"
+      }
+    },
+    "installsAfter": ["ghcr.io/audacioustux/devcontainers/graalvm"],
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "scalameta.metals"
+        ]
+      }
+    }
+}

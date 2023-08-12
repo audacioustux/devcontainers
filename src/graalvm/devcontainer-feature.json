@@ -1,0 +1,47 @@
+{
+    "id": "graalvm",
+    "version": "1.0.0",
+    "name": "Graal VM",
+    "installsAfter": [
+        "ghcr.io/audacioustux/devcontainers/common-utils-extras",
+        "ghcr.io/devcontainers/features/node"
+    ],
+    "options": {
+        "version": {
+          "type": "string",
+          "default": "latest"
+        },
+        "java": {
+          "type": "string",
+          "enum": [
+            "17",
+            "20"
+          ],
+          "default": "17",
+          "description": "Java version to install. Valid values are 11, 17"
+        },
+        "components": {
+          "type": "string",
+          "default": "native-image"
+        }
+    },
+    "customizations": {
+        "vscode": {
+          "extensions": [
+            "oracle-labs-graalvm.graalvm",
+            "asf.apache-netbeans-java"
+          ],
+          "settings": {
+            "graalvm.home": "/usr/java/graalvm",
+            "graalvm.installations": [
+              "/usr/java/graalvm"
+            ],
+            "netbeans.jdkhome": "/usr/java/graalvm"
+          }
+        }
+      },
+      "containerEnv": {
+        "JAVA_HOME": "/usr/java/graalvm",
+        "PATH": "$PATH:/usr/java/graalvm/bin"
+      }
+}

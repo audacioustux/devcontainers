@@ -20,6 +20,9 @@ jobs:
           - k9s
           - cilium
           - taskfile
+          - graalvm
+          - scala-toolchain
+          - bazel
         baseImage:
           - mcr.microsoft.com/devcontainers/base:ubuntu
     steps:
@@ -42,6 +45,9 @@ jobs:
           - k9s
           - cilium
           - taskfile
+          - graalvm
+          - scala-toolchain
+          - bazel
     steps:
       - uses: actions/checkout@v3
 

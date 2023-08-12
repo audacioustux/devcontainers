@@ -1,0 +1,6 @@
+{
+    "name": "Bazel",
+    "id": "bazel",
+    "version": "1.0.0",
+    "installsAfter": ["ghcr.io/devcontainers/features/node"]
+}
