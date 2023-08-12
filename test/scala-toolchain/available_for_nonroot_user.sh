@@ -6,7 +6,13 @@ source dev-container-features-test-lib
 
 check "user is vscode" grep vscode <(whoami)
 
-check "$bin" command -v sbt
-check "$bin" command -v cs
+bins=(
+    sbt
+    cs
+)
+
+for bin in "${bins[@]}"; do
+    check "$bin" command -v "$bin"
+done
 
 reportResults

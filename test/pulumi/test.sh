@@ -4,7 +4,13 @@ set -e
 
 source dev-container-features-test-lib
 
-check "$bin" command -v pulumi
-check "$bin" command -v crd2pulumi
+bins=(
+    pulumi
+    crd2pulumi
+)
+
+for bin in "${bins[@]}"; do
+    check "$bin" command -v "$bin"
+done
 
 reportResults

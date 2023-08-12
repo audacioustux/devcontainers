@@ -4,6 +4,12 @@ set -e
 
 source dev-container-features-test-lib
 
-check "$bin" command -v task
+bins=(
+    task
+)
+
+for bin in "${bins[@]}"; do
+    check "$bin" command -v "$bin"
+done
 
 reportResults

@@ -4,6 +4,12 @@ set -e
 
 source dev-container-features-test-lib
 
-check "$bin" command -v k9s
+bins=(
+    k9s
+)
+
+for bin in "${bins[@]}"; do
+    check "$bin" command -v "$bin"
+done
 
 reportResults

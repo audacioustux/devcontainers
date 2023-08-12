@@ -3,7 +3,7 @@
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "remoteUser": "vscode",
         "features": {
-            "ghcr.io/devcontainers/features/common-utils": {
+            "ghcr.io/devcontainers/features/common-utils:2": {
                 "username": "vscode"
             },
             "ghcr.io/devcontainers/features/node:1": {}

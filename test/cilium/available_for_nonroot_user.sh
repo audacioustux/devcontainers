@@ -6,6 +6,12 @@ source dev-container-features-test-lib
 
 check "user is vscode" grep vscode <(whoami)
 
-check "$bin" command -v cilium
+bins=(
+    cilium
+)
+
+for bin in "${bins[@]}"; do
+    check "$bin" command -v "$bin"
+done
 
 reportResults
