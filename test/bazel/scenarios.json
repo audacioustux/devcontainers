@@ -5,7 +5,8 @@
         "features": {
             "common-utils": {
                 "username": "vscode"
-            }
+            },
+            "ghcr.io/devcontainers/features/node:1": {}
         }
     }
 }

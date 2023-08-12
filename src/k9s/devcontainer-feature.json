@@ -2,6 +2,6 @@
     "id": "k9s",
     "version": "1.0.1",
     "name": "K9s (Kubernetes CLI To Manage Your Clusters In Style!)",
-    "installsAfter": ["ghcr.io/audacioustux/devcontainers/common-utils-extras"]
+    "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
 }
   
