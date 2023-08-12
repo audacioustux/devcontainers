@@ -22,6 +22,7 @@ bins=(
     yq
 )
 
+echo $PATH $(command --help)
 for bin in "${bins[@]}"; do
     check "$bin" command -v "$bin"
 done
