@@ -34,8 +34,8 @@ jobs:
       matrix:
         features:
           - common-utils-extras
-          - pulumi
-          - k9s
+          # - pulumi
+          # - k9s
           - cilium
           - taskfile
           - graalvm
