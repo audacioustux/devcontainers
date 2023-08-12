@@ -6,7 +6,8 @@
             "ghcr.io/devcontainers/features/common-utils": {
                 "username": "vscode"
             },
-            "ghcr.io/devcontainers/features/node": {}
+            "ghcr.io/devcontainers/features/node": {},
+            "bazel": {}
         }
     }
 }

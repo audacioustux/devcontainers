@@ -6,7 +6,8 @@
             "ghcr.io/devcontainers/features/common-utils": {
                 "username": "vscode"
             },
-            "ghcr.io/audacioustux/devcontainers/graalvm": {}
+            "ghcr.io/audacioustux/devcontainers/graalvm": {},
+            "scala-toolchain": {}
         }
     }
 }
