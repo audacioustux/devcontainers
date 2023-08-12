@@ -33,7 +33,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - common-utils-extras
+          # - common-utils-extras
           # - pulumi
           # - k9s
           # - cilium
