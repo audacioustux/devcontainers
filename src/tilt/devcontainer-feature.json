@@ -1,0 +1,6 @@
+{
+    "name": "Tilt",
+    "id": "tilt",
+    "version": "1.0.0",
+    "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}

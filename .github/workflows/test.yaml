@@ -41,6 +41,7 @@ jobs:
           - graalvm
           - scala-toolchain
           - bazel
+          - tilt
     steps:
       - uses: actions/checkout@v3
 

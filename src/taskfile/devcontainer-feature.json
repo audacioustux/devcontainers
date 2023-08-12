@@ -2,6 +2,6 @@
     "name": "Taskfile",
     "id": "taskfile",
     "version": "1.0.0",
-    "description": "Task is a task runner / build tool that aims to be simpler and easier to use than, for example, GNU Make.",
+    "description": "Taskfile is a task runner / build tool that aims to be simpler and easier to use than, for example, GNU Make.",
     "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
 }
