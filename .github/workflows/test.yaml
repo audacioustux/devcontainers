@@ -36,11 +36,11 @@ jobs:
           - common-utils-extras
           # - pulumi
           # - k9s
-          - cilium
-          - taskfile
-          - graalvm
+          # - cilium
+          # - taskfile
+          # - graalvm
           # - scala-toolchain
-          - bazel
+          # - bazel
     steps:
       - uses: actions/checkout@v3
 
