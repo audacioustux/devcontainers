@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         features:
-          # - common-utils-extras
+          - common-utils-extras
         baseImage:
           - mcr.microsoft.com/devcontainers/base:ubuntu
     steps:
@@ -34,13 +34,13 @@ jobs:
       matrix:
         features:
           - common-utils-extras
-          # - pulumi
-          # - k9s
-          # - cilium
-          # - taskfile
-          # - graalvm
-          # - scala-toolchain
-          # - bazel
+          - pulumi
+          - k9s
+          - cilium
+          - taskfile
+          - graalvm
+          - scala-toolchain
+          - bazel
     steps:
       - uses: actions/checkout@v3
 
