@@ -39,7 +39,7 @@ jobs:
           - cilium
           - taskfile
           - graalvm
-          - scala-toolchain
+          # - scala-toolchain
           - bazel
           - tilt
     steps:
