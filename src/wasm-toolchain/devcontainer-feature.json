@@ -1,0 +1,6 @@
+{
+    "id": "wasm-toolchain",
+    "version": "1.0.0",
+    "name": "WASM Toolchain",
+    "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}

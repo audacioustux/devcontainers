@@ -40,6 +40,7 @@ jobs:
           - taskfile
           - graalvm
           - scala-toolchain
+          - wasm-toolchain
           - bazel
           - tilt
     steps:
