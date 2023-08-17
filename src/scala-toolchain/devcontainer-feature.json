@@ -1,6 +1,6 @@
 {
     "id": "scala-toolchain",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Scala Toolchain",
     "options": {
       "version": {
