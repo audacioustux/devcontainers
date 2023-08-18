@@ -9,7 +9,7 @@ check "user is vscode" grep vscode <(whoami)
 bins=(
     wat2wasm
     wasm2wat
-    wassm-opt
+    wasm-opt
     emcc
 )
 
