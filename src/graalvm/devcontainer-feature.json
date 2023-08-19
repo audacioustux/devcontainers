@@ -1,6 +1,6 @@
 {
     "id": "graalvm",
-    "version": "1.0.0",
+    "version": "1.0.4",
     "name": "Graal VM",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils",
