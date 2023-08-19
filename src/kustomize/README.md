@@ -1,5 +1,5 @@
 
-# Tilt (tilt)
+# Kustomize (kustomize)
 
 
 
@@ -7,7 +7,7 @@
 
 ```json
 "features": {
-    "ghcr.io/audacioustux/devcontainers/tilt:1": {}
+    "ghcr.io/audacioustux/devcontainers/kustomize:1": {}
 }
 ```
 
@@ -17,4 +17,4 @@
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/audacioustux/devcontainers/blob/main/src/tilt/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/audacioustux/devcontainers/blob/main/src/kustomize/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
