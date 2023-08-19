@@ -1,0 +1,6 @@
+{
+    "name": "Kustomize",
+    "id": "kustomize",
+    "version": "1.0.0",
+    "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}
