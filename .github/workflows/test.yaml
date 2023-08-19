@@ -43,6 +43,7 @@ jobs:
           - wasm-toolchain
           - bazel
           - tilt
+          - kustomize
     steps:
       - uses: actions/checkout@v3
 
