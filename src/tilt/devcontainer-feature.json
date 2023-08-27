@@ -1,6 +1,15 @@
 {
     "name": "Tilt",
     "id": "tilt",
-    "version": "1.0.0",
-    "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+    "version": "1.0.1",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "tilt-dev.tiltfile"
+            ]
+        }
+    }
 }
