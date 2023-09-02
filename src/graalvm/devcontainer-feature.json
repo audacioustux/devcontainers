@@ -1,6 +1,6 @@
 {
     "id": "graalvm",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "name": "Graal VM",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils",
@@ -36,7 +36,10 @@
             "graalvm.installations": [
               "/usr/java/graalvm"
             ],
-            "netbeans.jdkhome": "/usr/java/graalvm"
+            "netbeans.jdkhome": "/usr/java/graalvm",
+            "terminal.integrated.env.linux": {
+              "GRAALVM_HOME": "/usr/java/graalvm"
+            }
           }
         }
       },
