@@ -44,6 +44,7 @@ jobs:
           - bazel
           - tilt
           - kustomize
+          - bun
     steps:
       - uses: actions/checkout@v3
 
