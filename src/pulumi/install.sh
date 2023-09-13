@@ -22,4 +22,4 @@ cat /tmp/crd2pulumi.tar.gz.asc | grep "$(sha256sum /tmp/crd2pulumi.tar.gz | cut 
 
 mkdir -p /tmp/crd2pulumi
 tar -xzf /tmp/crd2pulumi.tar.gz -C /tmp/crd2pulumi
-sudo install -o root -g root -m 0755 /tmp/crd2pulumi/crd2pulumi /usr/local/bin/crd2pulumi
+install -o root -g root -m 0755 /tmp/crd2pulumi/crd2pulumi /usr/local/bin/crd2pulumi

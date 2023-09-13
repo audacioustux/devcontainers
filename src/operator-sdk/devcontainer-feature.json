@@ -1,7 +1,7 @@
 {
-    "id": "pulumi",
-    "version": "1.0.3",
-    "name": "Pulumi",
+    "id": "operator-sdk",
+    "version": "1.0.0",
+    "name": "Operator SDK",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ]

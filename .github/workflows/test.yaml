@@ -45,6 +45,7 @@ jobs:
           - tilt
           - kustomize
           - bun
+          - operator-sdk
     steps:
       - uses: actions/checkout@v3
 
