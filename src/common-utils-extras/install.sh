@@ -21,7 +21,8 @@ apt-get install -yqq --no-install-recommends \
     fzf \
     socat \
     parallel \
-    gum
+    gum \
+    cloc
 
 # create symlinks for bat and fd, as they are called batcat and fdfind in Ubuntu
 sudo -iu $_REMOTE_USER <<EOF

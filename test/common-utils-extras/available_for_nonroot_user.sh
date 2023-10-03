@@ -20,6 +20,7 @@ bins=(
     parallel
     gum
     yq
+    cloc
 )
 
 for bin in "${bins[@]}"; do
