@@ -46,6 +46,7 @@ jobs:
           - kustomize
           - bun
           - operator-sdk
+          - kubebuilder
     steps:
       - uses: actions/checkout@v3
 

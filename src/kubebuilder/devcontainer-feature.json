@@ -1,0 +1,9 @@
+{
+    "id": "kubebuilder",
+    "version": "1.0.0",
+    "name": "Kubebuilder",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils",
+        "ghcr.io/devcontainers/features/go"
+    ]
+}
