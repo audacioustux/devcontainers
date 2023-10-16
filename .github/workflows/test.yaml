@@ -47,6 +47,7 @@ jobs:
           - bun
           - operator-sdk
           - kubebuilder
+          - argo
     steps:
       - uses: actions/checkout@v3
 

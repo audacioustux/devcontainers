@@ -1,0 +1,19 @@
+{
+    "name": "Argo Workflows and CD CLI",
+    "id": "argo",
+    "version": "1.0.0",
+    "options": {
+        "argocd": {
+            "type": "boolean",
+            "default": true
+        },
+        "argo": {
+            "type": "boolean",
+            "default": true
+        }
+    },
+    "description": "Installs the Argo Workflows and CD CLI",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
