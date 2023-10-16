@@ -35,3 +35,7 @@ EOF
 sudo -iu $_REMOTE_USER <<EOF
     curl -sS https://webinstall.dev/yq | bash
 EOF
+
+# cleanup
+apt-get clean
+rm -rf /var/lib/apt/lists/*
