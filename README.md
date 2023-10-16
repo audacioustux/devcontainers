@@ -9,3 +9,21 @@
 > only compatible with `mcr.microsoft.com/devcontainers/base:ubuntu` image
 
 ## Features
+<!-- FEATURES_LIST_START -->
+- [argo](https://github.com/audacioustux/devcontainers/tree/main/src/argo)
+- [bazel](https://github.com/audacioustux/devcontainers/tree/main/src/bazel)
+- [bun](https://github.com/audacioustux/devcontainers/tree/main/src/bun)
+- [cilium](https://github.com/audacioustux/devcontainers/tree/main/src/cilium)
+- [common-utils-extras](https://github.com/audacioustux/devcontainers/tree/main/src/common-utils-extras)
+- [graalvm](https://github.com/audacioustux/devcontainers/tree/main/src/graalvm)
+- [k9s](https://github.com/audacioustux/devcontainers/tree/main/src/k9s)
+- [kubebuilder](https://github.com/audacioustux/devcontainers/tree/main/src/kubebuilder)
+- [kustomize](https://github.com/audacioustux/devcontainers/tree/main/src/kustomize)
+- [operator-sdk](https://github.com/audacioustux/devcontainers/tree/main/src/operator-sdk)
+- [pulumi](https://github.com/audacioustux/devcontainers/tree/main/src/pulumi)
+- [scala-toolchain](https://github.com/audacioustux/devcontainers/tree/main/src/scala-toolchain)
+- [taskfile](https://github.com/audacioustux/devcontainers/tree/main/src/taskfile)
+- [tilt](https://github.com/audacioustux/devcontainers/tree/main/src/tilt)
+- [vegeta](https://github.com/audacioustux/devcontainers/tree/main/src/vegeta)
+- [wasm-toolchain](https://github.com/audacioustux/devcontainers/tree/main/src/wasm-toolchain)
+<!-- FEATURES_LIST_END -->
