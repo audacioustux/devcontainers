@@ -27,6 +27,21 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: "Update Featues List in README"
+        # update the list of features in src/ and update the README.md
+        run: |
+          set -e
+          features=$(find src -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort)
+          echo "Found features: $features"
+          echo "Updating README.md"
+          sed -i -e '/<!-- FEATURES_LIST_START -->/,/<!-- FEATURES_LIST_END -->/d' README.md
+          echo "<!-- FEATURES_LIST_START -->" >> README.md
+          for feature in $features; do
+            echo "- [$feature](`git remote get-url origin`/tree/main/src/$feature)" >> README.md
+          done
+          echo "<!-- FEATURES_LIST_END -->" >> README.md
+          git add README.md
+
       - name: Create PR for Documentation
         id: push_image_info
         env:

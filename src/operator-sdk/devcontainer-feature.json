@@ -1,6 +1,6 @@
 {
     "id": "operator-sdk",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Operator SDK",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
