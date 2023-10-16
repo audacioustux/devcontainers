@@ -1,13 +1,13 @@
 
-# Taskfile (taskfile)
+# Vegeta - HTTP load testing tool and library (vegeta)
 
-Taskfile is a task runner / build tool that aims to be simpler and easier to use than, for example, GNU Make.
+Installs the Vegeta HTTP load testing tool and library
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/audacioustux/devcontainers/taskfile:1": {}
+    "ghcr.io/audacioustux/devcontainers/vegeta:1": {}
 }
 ```
 
@@ -17,4 +17,4 @@ Taskfile is a task runner / build tool that aims to be simpler and easier to use
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/audacioustux/devcontainers/blob/main/src/taskfile/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/audacioustux/devcontainers/blob/main/src/vegeta/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
