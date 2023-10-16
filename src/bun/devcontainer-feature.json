@@ -3,5 +3,7 @@
     "id": "bun",
     "version": "1.0.0",
     "description": "Bun 1.0",
-    "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
 }

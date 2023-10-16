@@ -5,7 +5,6 @@
 ![Tests](https://github.com/audacioustux/devcontainers/actions/workflows/test.yaml/badge.svg)
 ![Release](https://github.com/audacioustux/devcontainers/actions/workflows/release.yaml/badge.svg)
 
-
 > only compatible with `mcr.microsoft.com/devcontainers/base:ubuntu` image
 
 ## Features
@@ -27,3 +26,7 @@
 - [vegeta](https://github.com/audacioustux/devcontainers/tree/main/src/vegeta)
 - [wasm-toolchain](https://github.com/audacioustux/devcontainers/tree/main/src/wasm-toolchain)
 <!-- FEATURES_LIST_END -->
+
+## Notes
+
+* Use `task new -- <feature-id> "<feature-name>" "<feature-description>"` to create a new feature from template

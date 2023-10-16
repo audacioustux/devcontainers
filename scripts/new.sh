@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -eax
+set -ea
 
 # ensure 3 arguments were passed
 if [ $# -ne 3 ]; then
@@ -24,8 +24,8 @@ if [ "$FEATURE_ID" != "${FEATURE_ID,,}" ]; then
 fi
 
 # copy feature template
-cp -r templates/feature/src src/$FEATURE_ID
-cp -r templates/feature/test test/$FEATURE_ID
+cp -rv templates/feature/src src/$FEATURE_ID
+cp -rv templates/feature/test test/$FEATURE_ID
 
 # update feature metadata
 jq \
