@@ -2,13 +2,20 @@
 
 set -eax
 
-echo "Installing vegeta..."
-local artifact="vegeta_${version}_linux_${ARCH?}.tar.gz"
+ARCH=amd64
+if [ "$(uname -m)" = "aarch64" ]; then ARCH=arm64; fi
 
-curl -sLO https://github.com/tsenart/vegeta/releases/latest/download/$artifact
+install_vegeta(){
+    echo "Installing vegeta..."
+    local artifact="vegeta_${version}_linux_${ARCH?}.tar.gz"
 
-tar xvf $artifact
-rm $artifact
+    curl -sLO https://github.com/tsenart/vegeta/releases/latest/download/$artifact
 
-chmod +x vegeta
-mv vegeta /usr/local/bin/vegeta
+    tar xvf $artifact
+    rm $artifact
+
+    chmod +x vegeta
+    mv vegeta /usr/local/bin/vegeta
+}
+
+install_vegeta

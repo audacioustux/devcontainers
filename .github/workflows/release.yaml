@@ -28,7 +28,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: "Update Featues List in README"
-        # update the list of features in src/ and update the README.md
         run: |
           set -e
           features=$(find src -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort)

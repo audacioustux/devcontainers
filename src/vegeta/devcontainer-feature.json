@@ -1,7 +1,7 @@
 {
     "name": "Vegeta - HTTP load testing tool and library",
     "id": "vegeta",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Installs the Vegeta HTTP load testing tool and library",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
