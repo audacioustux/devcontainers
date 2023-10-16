@@ -48,6 +48,7 @@ jobs:
           - operator-sdk
           - kubebuilder
           - argo
+          - vegeta
     steps:
       - uses: actions/checkout@v3
 
