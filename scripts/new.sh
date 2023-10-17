@@ -45,3 +45,8 @@ jq \
 TEST_WORKFLOW_FILE=".github/workflows/test.yaml"
 echo "update: add feature($FEATURE_ID) to matrix in $TEST_WORKFLOW_FILE"
 yq e '.jobs.test-scenarios.strategy.matrix.features += strenv(FEATURE_ID)' -i $TEST_WORKFLOW_FILE
+
+# print next steps
+echo "Feature $FEATURE_ID created"
+echo "edit src/$FEATURE_ID/install.sh"
+echo "edit test/$FEATURE_ID/available_for_nonroot_user.sh"
