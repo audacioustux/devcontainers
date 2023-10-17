@@ -8,14 +8,20 @@
 > only compatible with `mcr.microsoft.com/devcontainers/base:ubuntu` image
 
 ## Features
+
+## Notes
+
+* Use `task new -- <feature-id> "<feature-name>" "<feature-description>"` to create a new feature from template
 <!-- FEATURES_LIST_START -->
 - [argo](https://github.com/audacioustux/devcontainers/tree/main/src/argo)
 - [bazel](https://github.com/audacioustux/devcontainers/tree/main/src/bazel)
 - [bun](https://github.com/audacioustux/devcontainers/tree/main/src/bun)
 - [cilium](https://github.com/audacioustux/devcontainers/tree/main/src/cilium)
 - [common-utils-extras](https://github.com/audacioustux/devcontainers/tree/main/src/common-utils-extras)
+- [ebort](https://github.com/audacioustux/devcontainers/tree/main/src/ebort)
 - [graalvm](https://github.com/audacioustux/devcontainers/tree/main/src/graalvm)
 - [k9s](https://github.com/audacioustux/devcontainers/tree/main/src/k9s)
+- [knative](https://github.com/audacioustux/devcontainers/tree/main/src/knative)
 - [kubebuilder](https://github.com/audacioustux/devcontainers/tree/main/src/kubebuilder)
 - [kustomize](https://github.com/audacioustux/devcontainers/tree/main/src/kustomize)
 - [operator-sdk](https://github.com/audacioustux/devcontainers/tree/main/src/operator-sdk)
@@ -26,7 +32,3 @@
 - [vegeta](https://github.com/audacioustux/devcontainers/tree/main/src/vegeta)
 - [wasm-toolchain](https://github.com/audacioustux/devcontainers/tree/main/src/wasm-toolchain)
 <!-- FEATURES_LIST_END -->
-
-## Notes
-
-* Use `task new -- <feature-id> "<feature-name>" "<feature-description>"` to create a new feature from template
