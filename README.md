@@ -8,6 +8,10 @@
 > only compatible with `mcr.microsoft.com/devcontainers/base:ubuntu` image
 
 ## Features
+
+## Notes
+
+* Use `task new -- <feature-id> "<feature-name>" "<feature-description>"` to create a new feature from template
 <!-- FEATURES_LIST_START -->
 - [argo](https://github.com/audacioustux/devcontainers/tree/main/src/argo)
 - [bazel](https://github.com/audacioustux/devcontainers/tree/main/src/bazel)
@@ -26,7 +30,3 @@
 - [vegeta](https://github.com/audacioustux/devcontainers/tree/main/src/vegeta)
 - [wasm-toolchain](https://github.com/audacioustux/devcontainers/tree/main/src/wasm-toolchain)
 <!-- FEATURES_LIST_END -->
-
-## Notes
-
-* Use `task new -- <feature-id> "<feature-name>" "<feature-description>"` to create a new feature from template
