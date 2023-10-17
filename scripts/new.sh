@@ -42,4 +42,6 @@ jq \
     test/$FEATURE_ID/scenarios.json | sponge test/$FEATURE_ID/scenarios.json
 
 # update github workflow to include feature in matrix
-yq e '.jobs.test-scenarios.strategy.matrix.features += strenv(FEATURE_ID)' -i .github/workflows/test.yaml
+TEST_WORKFLOW_FILE=".github/workflows/test.yaml"
+echo "update: add feature($FEATURE_ID) to matrix in $TEST_WORKFLOW_FILE"
+yq e '.jobs.test-scenarios.strategy.matrix.features += strenv(FEATURE_ID)' -i $TEST_WORKFLOW_FILE

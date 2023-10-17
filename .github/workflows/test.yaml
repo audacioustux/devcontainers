@@ -45,6 +45,8 @@ jobs:
           - kubebuilder
           - argo
           - vegeta
+          - knative
+          - ebort
     steps:
       - uses: actions/checkout@v3
       - name: "Install latest devcontainer CLI"

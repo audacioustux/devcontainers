@@ -1,0 +1,9 @@
+{
+  "name": "Ebort",
+  "id": "ebort",
+  "version": "1.0.0",
+  "description": "Ebort - exponential backoff re-try commands",
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
