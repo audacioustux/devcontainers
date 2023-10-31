@@ -26,6 +26,7 @@
 - [kubebuilder](https://github.com/audacioustux/devcontainers/tree/main/src/kubebuilder)
 - [kustomize](https://github.com/audacioustux/devcontainers/tree/main/src/kustomize)
 - [operator-sdk](https://github.com/audacioustux/devcontainers/tree/main/src/operator-sdk)
+- [pack-cli](https://github.com/audacioustux/devcontainers/tree/main/src/pack-cli)
 - [pulumi](https://github.com/audacioustux/devcontainers/tree/main/src/pulumi)
 - [scala-toolchain](https://github.com/audacioustux/devcontainers/tree/main/src/scala-toolchain)
 - [taskfile](https://github.com/audacioustux/devcontainers/tree/main/src/taskfile)
