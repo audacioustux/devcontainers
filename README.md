@@ -7,9 +7,11 @@
 
 > only compatible with `mcr.microsoft.com/devcontainers/base:ubuntu` image
 
-## Notes
+## Contribute
 
-* Use `task new -- <feature-id> "<feature-name>" "<feature-description>"` to create a new feature from template
+* Add new features
+  - Use `task new -- <feature-id> "<feature-name>" "<feature-description>"` to create a new feature from template
+* Let me know if something is not working as expected
 
 ## Features
 
