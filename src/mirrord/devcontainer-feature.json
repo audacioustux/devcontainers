@@ -1,0 +1,9 @@
+{
+  "name": "Mirrord",
+  "id": "mirrord",
+  "version": "1.0.0",
+  "description": "Develop Locally with Your Kubernetes Environment",
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}
