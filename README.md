@@ -20,6 +20,7 @@
 - [argo](https://github.com/audacioustux/devcontainers/tree/main/src/argo)
 - [bazel](https://github.com/audacioustux/devcontainers/tree/main/src/bazel)
 - [bun](https://github.com/audacioustux/devcontainers/tree/main/src/bun)
+- [cargo-bin](https://github.com/audacioustux/devcontainers/tree/main/src/cargo-bin)
 - [cilium](https://github.com/audacioustux/devcontainers/tree/main/src/cilium)
 - [common-utils-extras](https://github.com/audacioustux/devcontainers/tree/main/src/common-utils-extras)
 - [ebort](https://github.com/audacioustux/devcontainers/tree/main/src/ebort)
