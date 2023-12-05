@@ -8,7 +8,7 @@
       },
       "ghcr.io/devcontainers/features/rust:1": {},
       "cargo-bin": {
-        "crates": "cargo-watch systemfd"
+        "crates": "cargo-watch"
       }
     }
   },
@@ -21,7 +21,7 @@
       },
       "ghcr.io/devcontainers/features/rust:1": {},
       "cargo-bin": {
-        "crates": "cargo-watch systemfd",
+        "crates": "cargo-watch",
         "use-binstall": false
       }
     }
