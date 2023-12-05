@@ -2,11 +2,17 @@
   "name": "Cargo Install",
   "id": "cargo-bin",
   "version": "1.0.0",
-  "description": "Installs binary crates with 'cargo install'",
+  "description": "Installs binary crates",
   "options": {
     "crates": {
       "type": "string",
+      "default": "",
       "description": "space separated list of crates to install"
+    },
+    "use-bininstall": {
+      "type": "boolean",
+      "default": true,
+      "description": "use bininstall instead of cargo install"
     }
   },
   "installsAfter": [
