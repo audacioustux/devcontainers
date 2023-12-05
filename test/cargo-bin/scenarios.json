@@ -8,21 +8,7 @@
       },
       "ghcr.io/devcontainers/features/rust:1": {},
       "cargo-bin": {
-        "crates": "cargo-watch"
-      }
-    }
-  },
-  "using_cargo_install": {
-    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-    "remoteUser": "vscode",
-    "features": {
-      "ghcr.io/devcontainers/features/common-utils:2": {
-        "username": "vscode"
-      },
-      "ghcr.io/devcontainers/features/rust:1": {},
-      "cargo-bin": {
-        "crates": "cargo-watch",
-        "use-binstall": false
+        "crates": "cargo-watch systemfd"
       }
     }
   }
