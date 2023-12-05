@@ -9,10 +9,10 @@
       "default": "",
       "description": "space separated list of crates to install"
     },
-    "use-bininstall": {
+    "use-binstall": {
       "type": "boolean",
       "default": true,
-      "description": "use bininstall instead of cargo install"
+      "description": "use cargo binstall instead of cargo install"
     }
   },
   "installsAfter": [
