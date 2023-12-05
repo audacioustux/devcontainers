@@ -8,11 +8,6 @@
       "type": "string",
       "default": "",
       "description": "space separated list of crates to install"
-    },
-    "use-binstall": {
-      "type": "boolean",
-      "default": true,
-      "description": "use cargo binstall instead of cargo install"
     }
   },
   "installsAfter": [

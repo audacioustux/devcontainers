@@ -7,7 +7,6 @@ source dev-container-features-test-lib
 check "user is vscode" grep vscode <(whoami)
 
 bins=(
-    cargo-binstall
     cargo-watch
     systemfd
 )
