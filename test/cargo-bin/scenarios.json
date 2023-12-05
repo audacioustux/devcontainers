@@ -1,0 +1,14 @@
+{
+  "available_for_nonroot_user": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "remoteUser": "vscode",
+    "features": {
+      "ghcr.io/devcontainers/features/common-utils:2": {
+        "username": "vscode"
+      },
+      "cargo-bin": {
+        "crates": "cargo-watch systemfd"
+      }
+    }
+  }
+}

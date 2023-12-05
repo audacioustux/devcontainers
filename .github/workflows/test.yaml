@@ -49,6 +49,7 @@ jobs:
           - ebort
           - pack-cli
           - mirrord
+          - cargo-bin
     steps:
       - uses: actions/checkout@v3
       - name: "Install latest devcontainer CLI"

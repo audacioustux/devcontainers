@@ -1,0 +1,15 @@
+{
+  "name": "Cargo Install",
+  "id": "cargo-bin",
+  "version": "1.0.0",
+  "description": "Installs binary crates with 'cargo install'",
+  "options": {
+    "crates": {
+      "type": "string",
+      "description": "space separated list of crates to install"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/rust"
+  ]
+}
