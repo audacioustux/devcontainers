@@ -2,4 +2,6 @@
 
 set -eax
 
-cargo install ${CRATES:?}
+sudo -E -u $_REMOTE_USER zsh <<EOF
+    cargo install ${CRATES:?}
+EOF
