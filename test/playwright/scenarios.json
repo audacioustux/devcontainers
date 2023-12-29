@@ -4,6 +4,8 @@
     "remoteUser": "vscode",
     "features": {
       "ghcr.io/devcontainers/features/common-utils:2": {
+        "installZsh": true,
+        "configureZshAsDefaultShell": true,
         "username": "vscode"
       },
       "ghcr.io/devcontainers/features/node:1": {
