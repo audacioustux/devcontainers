@@ -18,6 +18,7 @@
 
 <!-- FEATURES_LIST_START -->
 - [argo](https://github.com/audacioustux/devcontainers/tree/main/src/argo)
+- [aws-sam-cli](https://github.com/audacioustux/devcontainers/tree/main/src/aws-sam-cli)
 - [bazel](https://github.com/audacioustux/devcontainers/tree/main/src/bazel)
 - [bun](https://github.com/audacioustux/devcontainers/tree/main/src/bun)
 - [cilium](https://github.com/audacioustux/devcontainers/tree/main/src/cilium)
