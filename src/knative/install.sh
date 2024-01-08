@@ -21,7 +21,6 @@ install_knative_func_cli(){
     echo "Installing knative func cli..."
 
     local artifact="func_linux_${ARCH?}"
-    local version="1.11.0"
 
     curl -sLO "https://github.com/knative/func/releases/latest/download/$artifact"
 

@@ -1,0 +1,9 @@
+{
+  "name": "AWS SAM CLI",
+  "id": "aws-sam-cli",
+  "version": "1.0.0",
+  "description": "SAM CLI with ARM64 support",
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ]
+}

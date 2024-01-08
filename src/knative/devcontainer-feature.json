@@ -1,7 +1,7 @@
 {
   "name": "Knative",
   "id": "knative",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Installs Knative CLI (kn and kn func)",
   "installsAfter": [
     "ghcr.io/devcontainers/features/common-utils"
