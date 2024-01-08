@@ -6,13 +6,24 @@
 ![Tests](https://github.com/audacioustux/devcontainers/actions/workflows/test.yaml/badge.svg)
 ![Release](https://github.com/audacioustux/devcontainers/actions/workflows/release.yaml/badge.svg)
 
-> only compatible with `mcr.microsoft.com/devcontainers/base:ubuntu` image
-
 ## Contribute
 
 * Add new features
   * Use `task new -- <feature-id> "<feature-name>" "<feature-description>"` to create a new feature from template
 * Let me know if something is not working as expected
+
+## Note
+
+* All features should be compatible with:
+  * `mcr.microsoft.com/devcontainers/base:ubuntu` image
+  * ARM64 architecture
+  If not, that should be treated as a bug.
+
+## Usage
+
+Click on the feature name to see the usage instructions.
+
+[Check out this blog post](https://audacioustux.notion.site/Getting-Started-with-Devcontainer-c727dbf9d56f4d6b9b0ef87b3111693f) to learn more about DevContainers (and GitHub Codespaces)
 
 ## Features
 
