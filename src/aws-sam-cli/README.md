@@ -13,6 +13,12 @@ SAM CLI with ARM64 support
 
 
 
+## Customizations
+
+### VS Code Extensions
+
+- `redhat.vscode-yaml`
+
 
 
 ---
