@@ -14,11 +14,11 @@
 
 ## Note
 
-* Should be treated as a bug if -
-  * Features not compatible with:
+* Should be treated as a bug -
+  * If, features not compatible with:
     * `mcr.microsoft.com/devcontainers/base:ubuntu` image.
     * ARM64 architecture.
-  * By default, features do not install the latest version of the relevant tools.
+  * If, by default, features do not install the latest version of the relevant tools.
 
 ## Usage
 
