@@ -1,5 +1,5 @@
 {
-  "name": "localstack",
+  "name": "Localstack",
   "id": "localstack",
   "version": "1.0.0",
   "description": "LocalStack is a cloud service emulator",
