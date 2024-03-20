@@ -41,6 +41,7 @@ Click on the feature name to see the usage instructions.
 - [knative](https://github.com/audacioustux/devcontainers/tree/main/src/knative)
 - [kubebuilder](https://github.com/audacioustux/devcontainers/tree/main/src/kubebuilder)
 - [kustomize](https://github.com/audacioustux/devcontainers/tree/main/src/kustomize)
+- [localstack](https://github.com/audacioustux/devcontainers/tree/main/src/localstack)
 - [mirrord](https://github.com/audacioustux/devcontainers/tree/main/src/mirrord)
 - [operator-sdk](https://github.com/audacioustux/devcontainers/tree/main/src/operator-sdk)
 - [pack-cli](https://github.com/audacioustux/devcontainers/tree/main/src/pack-cli)
