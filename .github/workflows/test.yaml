@@ -50,6 +50,7 @@ jobs:
           - pack-cli
           - mirrord
           - aws-sam-cli
+          - localstack
     steps:
       - uses: actions/checkout@v3
       - name: "Install latest devcontainer CLI"
