@@ -1,7 +1,7 @@
 {
   "name": "Localstack",
   "id": "localstack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LocalStack is a cloud service emulator",
   "installsAfter": [
     "ghcr.io/devcontainers/features/common-utils"
