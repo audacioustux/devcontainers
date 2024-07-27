@@ -11,7 +11,7 @@ apt-get update -qq
 apt-get install -yqq --no-install-recommends \
     ripgrep \
     bat \
-    exa \
+    eza \
     hyperfine \
     fd-find \
     zoxide \
