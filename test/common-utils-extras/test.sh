@@ -7,7 +7,7 @@ source dev-container-features-test-lib
 bins=(
     rg
     bat
-    exa
+    eza
     hyperfine
     fd
     zoxide
