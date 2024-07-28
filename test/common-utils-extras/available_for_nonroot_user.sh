@@ -9,7 +9,7 @@ check "user is vscode" grep vscode <(whoami)
 bins=(
     rg
     bat
-    exa
+    eza
     hyperfine
     fd
     zoxide
