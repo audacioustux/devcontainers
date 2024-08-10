@@ -11,7 +11,6 @@ apt-get update -qq
 apt-get install -yqq --no-install-recommends \
     ripgrep \
     bat \
-    hyperfine \
     fd-find \
     zoxide \
     neovim \
