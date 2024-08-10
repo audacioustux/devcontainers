@@ -7,7 +7,6 @@ source dev-container-features-test-lib
 bins=(
     rg
     bat
-    hyperfine
     fd
     zoxide
     nvim
