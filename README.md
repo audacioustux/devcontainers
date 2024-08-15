@@ -36,6 +36,7 @@ Click on the feature name to see the usage instructions.
 - [cilium](https://github.com/audacioustux/devcontainers/tree/main/src/cilium)
 - [common-utils-extras](https://github.com/audacioustux/devcontainers/tree/main/src/common-utils-extras)
 - [ebort](https://github.com/audacioustux/devcontainers/tree/main/src/ebort)
+- [flyctl](https://github.com/audacioustux/devcontainers/tree/main/src/flyctl)
 - [graalvm](https://github.com/audacioustux/devcontainers/tree/main/src/graalvm)
 - [k9s](https://github.com/audacioustux/devcontainers/tree/main/src/k9s)
 - [knative](https://github.com/audacioustux/devcontainers/tree/main/src/knative)
