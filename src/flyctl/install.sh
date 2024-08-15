@@ -2,6 +2,9 @@
 
 set -eax
 
+export FLYCTL_INSTALL="$HOME/.fly"
+export PATH="$FLYCTL_INSTALL/bin:$PATH"
+
 echo "Installing flyctl..."
 sudo -E -u $_REMOTE_USER zsh <<EOF
   if [ "$VERSION" = "latest" ]; then
