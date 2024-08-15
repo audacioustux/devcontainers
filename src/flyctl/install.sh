@@ -2,7 +2,9 @@
 
 set -eax
 
-export FLYCTL_INSTALL="$HOME/.fly"
+USER_HOME=$(eval echo ~$_REMOTE_USER)
+
+export FLYCTL_INSTALL="$USER_HOME/.fly"
 export PATH="$FLYCTL_INSTALL/bin:$PATH"
 
 echo "Installing flyctl..."
