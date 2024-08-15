@@ -13,7 +13,7 @@
       "description": "The version of flyctl to install. Valid values are 'latest' or a specific version number, e.g. '0.2.111'"
     }
   },
-  "containerEnv": {
+  "remoteEnv": {
     "PATH": "$HOME/.fly/bin:$PATH",
     "FLYCTL_INSTALL": "$HOME/.fly"
   }
