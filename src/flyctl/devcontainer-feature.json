@@ -1,0 +1,16 @@
+{
+  "name": "Fly.io CLI",
+  "id": "flyctl",
+  "version": "1.0.0",
+  "description": "Install [flyctl](https://github.com/superfly/flyctl) - Command line tools for [fly.io services](https://fly.io/)",
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils"
+  ],
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "description": "The version of flyctl to install. Valid values are 'latest' or a specific version number, e.g. '0.2.111'"
+    }
+  }
+}

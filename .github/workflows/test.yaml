@@ -51,6 +51,7 @@ jobs:
           - mirrord
           - aws-sam-cli
           - localstack
+          - flyctl
     steps:
       - uses: actions/checkout@v3
       - name: "Install latest devcontainer CLI"
