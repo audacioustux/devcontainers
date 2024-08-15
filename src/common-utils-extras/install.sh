@@ -36,10 +36,8 @@ sudo -iu $_REMOTE_USER <<EOF
 EOF
 
 # install yq
-sudo -iu $_REMOTE_USER <<EOF
-    sudo wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_$ARCH -O /usr/bin/yq &&\
-    sudo chmod +x /usr/bin/yq
-EOF
+sudo wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_$ARCH -O /usr/bin/yq 
+sudo chmod +x /usr/bin/yq
 
 # cleanup
 apt-get clean
