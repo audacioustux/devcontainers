@@ -14,7 +14,7 @@
     }
   },
   "containerEnv": {
-    "PATH": "${HOME}/.fly/bin:${PATH}",
-    "FLYCTL_INSTALL": "${HOME}/.fly"
+    "PATH": "${containerEnv:HOME}/.fly/bin:${containerEnv:PATH}",
+    "FLYCTL_INSTALL": "${containerEnv:HOME}/.fly"
   }
 }
