@@ -2,6 +2,9 @@
 
 set -eax
 
+ARCH=amd64
+if [ "$(uname -m)" = "aarch64" ]; then ARCH=arm64; fi
+
 # add repo for gum
 mkdir -p /etc/apt/keyrings
 curl -fsSL https://repo.charm.sh/apt/gpg.key | gpg --dearmor -o /etc/apt/keyrings/charm.gpg
@@ -34,7 +37,8 @@ EOF
 
 # install yq
 sudo -iu $_REMOTE_USER <<EOF
-    curl -sS https://webinstall.dev/yq | bash
+    wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_$ARCH -O /usr/bin/yq &&\
+    chmod +x /usr/bin/yq
 EOF
 
 # cleanup
