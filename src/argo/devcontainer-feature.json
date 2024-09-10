@@ -1,7 +1,7 @@
 {
     "name": "Argo Workflows and CD CLI",
     "id": "argo",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "options": {
         "argocd": {
             "type": "boolean",
