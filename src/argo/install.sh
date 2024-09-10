@@ -14,7 +14,6 @@ install_argocd_cli(){
 
     chmod +x $artifact
     sudo mv $artifact /usr/local/bin/argocd
-    argocd version --client
 }
 
 install_argo_cli(){
@@ -26,10 +25,8 @@ install_argo_cli(){
 
     gunzip $artifact
 
-    chmod +x argo-linux-amd64
-    sudo mv ./argo-linux-amd64 /usr/local/bin/argo
-    
-    argo version
+    chmod +x $artifact
+    sudo mv $artifact /usr/local/bin/argo
 }
 
 if [ "$ARGOCD" = true ]; then install_argocd_cli; fi
