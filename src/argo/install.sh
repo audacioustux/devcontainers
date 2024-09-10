@@ -19,11 +19,12 @@ install_argocd_cli(){
 install_argo_cli(){
     echo "Installing argo cli..."
 
-    local artifact="argo-linux-${ARCH?}.gz"
+    local artifact="argo-linux-${ARCH?}"
+    local artifact_gz="${artifact}.gz"
 
-    curl -sLO https://github.com/argoproj/argo-workflows/releases/latest/download/$artifact
+    curl -sLO https://github.com/argoproj/argo-workflows/releases/latest/download/$artifact_gz
 
-    gunzip $artifact
+    gunzip $artifact_gz
 
     chmod +x $artifact
     sudo mv $artifact /usr/local/bin/argo
