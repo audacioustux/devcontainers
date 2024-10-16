@@ -35,7 +35,7 @@ jobs:
           - cilium
           - taskfile
           - graalvm
-          - scala-toolchain
+          # - scala-toolchain
           - wasm-toolchain
           - bazel
           - tilt
