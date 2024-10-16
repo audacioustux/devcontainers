@@ -19,10 +19,6 @@
           ],
           "default": "21",
           "description": "Java version to install. Valid values are 21, 23; if further versions are published, other values will work as well."
-        },
-        "components": {
-          "type": "string",
-          "default": "native-image"
         }
     },
     "customizations": {
