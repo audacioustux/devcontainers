@@ -16,8 +16,7 @@
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
 | version | - | string | latest |
-| java | Java version to install. Valid values are 11, 17 | string | 17 |
-| components | - | string | native-image |
+| java | Java version to install. Valid values are 21, 23; if further versions are published, other values will work as well. | string | 21 |
 
 ## Customizations
 
