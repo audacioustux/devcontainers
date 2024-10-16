@@ -1,6 +1,6 @@
 {
     "id": "graalvm",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "name": "Graal VM",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils",
@@ -14,15 +14,11 @@
         "java": {
           "type": "string",
           "enum": [
-            "17",
-            "20"
+            "21",
+            "23"
           ],
-          "default": "17",
-          "description": "Java version to install. Valid values are 11, 17"
-        },
-        "components": {
-          "type": "string",
-          "default": "native-image"
+          "default": "21",
+          "description": "Java version to install. Valid values are 21, 23; if further versions are published, other values will work as well."
         }
     },
     "customizations": {
