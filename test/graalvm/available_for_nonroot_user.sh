@@ -8,7 +8,6 @@ check "user is vscode" grep vscode <(whoami)
 
 bins=(
     java
-    gu
 )
 
 for bin in "${bins[@]}"; do
