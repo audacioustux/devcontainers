@@ -1,7 +1,15 @@
 {
     "id": "pack-cli",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "name": "Buildpacks Pack CLI",
+    "description": "Installs the Cloud Native Buildpacks `pack` CLI",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "The version of the pack CLI to install. Valid values are 'latest' or a specific version number, e.g. '0.40.11'"
+        }
+    },
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ]
