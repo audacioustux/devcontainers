@@ -1,7 +1,7 @@
 
 # Buildpacks Pack CLI (pack-cli)
 
-
+Installs the Cloud Native Buildpacks `pack` CLI
 
 ## Example Usage
 
@@ -11,7 +11,11 @@
 }
 ```
 
+## Options
 
+| Options Id | Description | Type | Default Value |
+|-----|-----|-----|-----|
+| version | The version of the pack CLI to install. Valid values are 'latest' or a specific version number, e.g. '0.40.11' | string | latest |
 
 
 
